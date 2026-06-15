@@ -105,7 +105,7 @@ input, select, textarea {
 		font-family: 'Open Sans', sans-serif;
 		color: #7b818c;
 		font-weight: 400;
-		font-size: 11pt;
+		font-size: 15pt;
 		line-height: 1.85em;
 	}
 
@@ -119,8 +119,8 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		text-transform: uppercase;
-		font-weight: 800;
+		/* text-transform: uppercase; */
+		font-weight: 1000;
 		letter-spacing: 0.04em;
 		color: #404248;
 		margin: 0 0 1em 0;
@@ -133,7 +133,7 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 2em;
+		font-size: 3em;
 		margin: 0 0 1.5em 0;
 		line-height: 1em;
 	}
@@ -155,7 +155,7 @@ input, select, textarea {
 	}
 
 	b, strong {
-		color: #404248;
+		color: #fffff;
 		font-weight: 700;
 	}
 
@@ -209,7 +209,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 100px);
-		width: 1200px;
+		width: 1400px;
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -1241,7 +1241,7 @@ input, select, textarea {
 			text-transform: uppercase;
 			font-weight: 700;
 			letter-spacing: 0.065em;
-			font-size: 0.9em;
+			font-size: 1.5em;
 			color: #696969;
 			margin: 0;
 		}
@@ -1705,7 +1705,7 @@ input, select, textarea {
 
 	#nav {
 		position: absolute;
-		right: 2em;
+		right: 15em;
 		top: 0;
 		line-height: 5.5em;
 	}
@@ -1749,8 +1749,7 @@ input, select, textarea {
 		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
 		background-image: linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
 		position: relative;
-		background-color: #3B3E45;
-		background-color: rgba(59, 62, 69, 0.9);
+		background-color: rgba(59, 62, 69, 0.6);
 		border-radius: 8px;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 0px 0px 2px rgba(255, 255, 255, 0.075), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2), 0px 2px 14px 0px rgba(0, 0, 0, 0.4);
 		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
@@ -1856,7 +1855,7 @@ input, select, textarea {
 	}
 
 	#main-wrapper {
-		background: #fff;
+		background: linear-gradient(to bottom, rgb(0,0,0) 0.5%, rgb(255, 255, 255) 1%, rgb(255,255,255) 10%, rgb(247, 224, 204)25%, rgb(255,255,255) 50%, rgb(218, 233, 247)65%, rgb(255,255,255) 80%);
 	}
 
 	#footer-wrapper {
@@ -1911,14 +1910,10 @@ input, select, textarea {
 	}
 
 		#header .inner {
-			background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-			background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-			background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-			background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
+			background-image: none !important;
+  			background-color: rgba(59,62,69,0.1) !important;  /* adjust opacity here */
 			position: relative;
 			height: 5.5em;
-			background-color: #3B3E45;
-			background-color: rgba(59, 62, 69, 0.9);
 			border-radius: 8px;
 			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.45), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.15);
 			text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
@@ -2096,7 +2091,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				background-color: rgba(59, 62, 69, 0.9);
+				background-color: rgba(59, 62, 69, 0.6);
 				box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 0px 0px 2px rgba(255, 255, 255, 0.075), 0px 1px 6px 0px rgba(0, 0, 0, 0.35);
 				display: block;
 				height: 44px;
@@ -2174,7 +2169,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				background-color: #303238;
+				background-color: rgba(59, 62, 69, 0.2);
 				box-shadow: inset -1px 0px 0px 0px rgba(0, 0, 0, 0.5), inset -2px 0px 0px rgba(255, 255, 255, 0.15), inset -2px 0px 10px 0px rgba(0, 0, 0, 0.35);
 				display: block;
 				height: 100%;
@@ -2427,3 +2422,582 @@ input, select, textarea {
 			}
 
 	}
+
+.expertise-row {
+  display: flex !important;
+  flex-wrap: wrap;         /* allow stacking on small screens */
+  align-items: center;
+  justify-content: space-between;
+  gap: 3em;
+}
+
+.expertise-row.reverse {
+  flex-direction: row-reverse !important;
+}
+
+.expertise-row .text {
+  flex: 2;
+  min-width: 300px;        /* prevents collapsing on small screens */
+}
+
+.expertise-row .media {
+  flex: 1;
+  min-width: 200px;
+}
+
+.expertise-row img {
+  width: 100%;
+  border-radius: 10px;
+  transition: opacity 0.5s ease;
+}
+
+.expertise-row .text h3 {
+  position: relative;         /* needed for pseudo-element positioning */
+  display: inline-block;      /* ensures underline fits text width */
+  margin-bottom: 0.5em;      /* space between header and underline */
+}
+
+.expertise-row .text h3::after {
+  content: "";                       /* pseudo-element for underline */
+  position: absolute;
+  left: 0;
+  bottom: -5px;                      /* distance below text */
+  width: 100%;                       /* span the full width of text */
+  height: 8px;                        /* thickness of underline */
+  background-color: #79A1CF;          /* your chosen blue */
+  border-radius: 2px;                 /* optional: rounded edges */
+}
+
+/* Blue underline for Expertise Areas section */
+#content > article > header.major h2 {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0.5em;
+}
+
+#content > article > header.major h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 4px;
+  background-color: #79A1CF; /* blue for expertise areas */
+  border-radius: 2px;
+}
+
+/* Orange underline for Vision and Professional Identity headers */
+.expertise-row .text h3, 
+#content article header.major h2.vision,
+#content article header.major h2.pi {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0.5em;
+}
+
+.expertise-row .text h3::after,
+#content article header.major h2.vision::after,
+#content article header.major h2.pi::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 8px;
+  background-color: #F6B77E; /* orange for Vision and PI */
+  border-radius: 2px;
+}
+
+span.image.featured video {
+  width: 100%;
+  border-radius: 10px; /* same as the image */
+  object-fit: cover;   /* crop/fill like the image */
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+  margin-top: 3em;
+}
+
+.project {
+  text-align: center;
+}
+
+.project-thumb {
+  width: 80%;
+  aspect-ratio: 1 / 1;   /* forces square ratio */
+  object-fit: cover;      /* crops image to fill square */
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.project-thumb:hover {
+  transform: scale(1.05);
+}
+
+.project h3 {
+  margin-top: 0.5em;
+}
+
+/* ===== Full-screen video hero ===== */
+
+body.homepage #header-wrapper.video-hero {
+  position: relative;
+  background: none !important;
+  padding: 0 !important;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Header floats on top of video */
+body.homepage #header-wrapper.video-hero #header {
+  position: absolute;
+  top: 2em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 4em);
+  max-width: 1400px;
+  z-index: 10;
+  margin-bottom: 0;
+}
+
+/* Override theme's fixed 940px banner */
+#banner.video-banner {
+  position: relative !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Video fills entire banner */
+#banner.video-banner .banner-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+}
+
+/* Optional dark overlay */
+#banner.video-banner .banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+/* Centered text on top of video */
+#banner.video-banner .banner-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 2em;
+  color: #fff;
+}
+
+#banner.video-banner .banner-content h1,
+#banner.video-banner .banner-content h2,
+#banner.video-banner .banner-content p {
+  color: #fff;
+  float: none !important;
+  width: 100% !important;
+  text-align: center;
+}
+
+#banner.video-banner .banner-content h1 {
+  font-size: 4em;
+  margin-bottom: 0.25em;
+}
+
+#banner.video-banner .banner-content h2 {
+  font-size: 2em;
+  border: none;
+  margin-bottom: 1em;
+}
+
+#banner.video-banner .banner-content h2:before,
+#banner.video-banner .banner-content h2:after {
+  display: none;
+}
+
+#banner.video-banner .banner-content p {
+  font-size: 1.25em;
+  margin-bottom: 2em;
+}
+
+/* Mobile */
+@media screen and (max-width: 736px) {
+  #banner.video-banner {
+    height: 100vh;
+    min-height: 100vh;
+    padding: 0 !important;
+  }
+
+  #banner.video-banner .banner-content h1 {
+    font-size: 2.5em;
+  }
+}
+
+/* ===== Video hero: transparent floating navbar + clickable nav ===== */
+
+body.homepage #header-wrapper.video-hero {
+  position: relative;
+  background: none !important;
+  padding: 0 !important;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Video banner sits BEHIND navbar */
+body.homepage #header-wrapper.video-hero #banner.video-banner {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100%;
+  min-height: 100vh;
+  margin: 0 !important;
+  padding: 0 !important;
+  z-index: 1;
+}
+
+/* Video + overlay don't steal clicks */
+body.homepage #header-wrapper.video-hero #banner.video-banner .banner-video,
+body.homepage #header-wrapper.video-hero #banner.video-banner .banner-overlay {
+  pointer-events: none;
+}
+
+/* Only hero text/button stays clickable */
+body.homepage #header-wrapper.video-hero #banner.video-banner .banner-content {
+  position: relative;
+  z-index: 2;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2em;
+  padding-top: 0vh; 
+  padding-bottom: 0vh;
+  color: #fff;
+  pointer-events: auto;
+}
+
+/* Navbar floats ON TOP */
+body.homepage #header-wrapper.video-hero #header {
+  position: absolute;
+  top: 2em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1100px;
+  z-index: 20;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0;
+  pointer-events: auto;
+}
+
+/* TRANSPARENT navbar — remove texture + gradient */
+body.homepage #header-wrapper.video-hero #header .inner {
+  background-image: none !important;
+  background-color: rgba(59, 62, 69, 0.1) !important; /* lower = more transparent (try 0.3–0.6) */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Force nav to show and be clickable (overrides theme's display:none) */
+body.homepage #header-wrapper.video-hero #header,
+body.homepage #header-wrapper.video-hero #nav {
+  display: block !important;
+}
+
+body.homepage #header-wrapper.video-hero #nav {
+  position: absolute;
+  right: 1.5em;
+  top: 0;
+  line-height: 5.5em;
+  z-index: 21;
+  pointer-events: auto;
+}
+
+body.homepage #header-wrapper.video-hero #nav > ul > li {
+  float: left;
+}
+
+body.homepage #header-wrapper.video-hero #nav > ul > li > a {
+  color: #fff !important;
+  text-decoration: none;
+  cursor: pointer;
+  pointer-events: auto;
+  position: relative;
+  z-index: 22;
+}
+
+body.homepage #header-wrapper.video-hero #nav > ul > li > a:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Banner text overrides */
+body.homepage #header-wrapper.video-hero #banner.video-banner .banner-content h1,
+body.homepage #header-wrapper.video-hero #banner.video-banner .banner-content h2,
+body.homepage #header-wrapper.video-hero #banner.video-banner .banner-content p {
+  color: #fff;
+  float: none !important;
+  width: 100% !important;
+  text-align: center;
+  padding-top: 1vh; 
+}
+
+body.homepage #header-wrapper.video-hero #banner.video-banner .banner-content h2:before,
+body.homepage #header-wrapper.video-hero #banner.video-banner .banner-content h2:after {
+  display: none;
+}
+
+/* Keep navbar visible below 980px (theme normally hides it) */
+@media screen and (max-width: 980px) {
+  body.homepage #header-wrapper.video-hero #header,
+  body.homepage #header-wrapper.video-hero #nav {
+    display: block !important;
+  }
+
+  body.homepage #header-wrapper.video-hero #header {
+    width: 95%;
+    top: 1em;
+  }
+
+  body.homepage #header-wrapper.video-hero #nav {
+    right: 0.5em;
+  }
+
+  body.homepage #header-wrapper.video-hero #nav > ul > li {
+    padding: 0 0.4em;
+  }
+
+  body.homepage #header-wrapper.video-hero #nav > ul > li > a {
+    font-size: 0.8em;
+    padding: 0.4em 0.5em;
+  }
+}
+
+/* Curly font title */
+.curly-title {
+  font-family: 'Imperial Script', 'League Script', cursive !important;
+  font-weight: 200 !important;       /* remove invalid 40 value */
+  font-style: normal;
+  color: white;
+  opacity: 0.5;
+  font-size: 6em !important;            /* adjust as needed */
+  text-align: center;
+  margin-top: 15vh !important;  /* push down from top */
+  margin-bottom: 0 em; /* space to main name */
+}
+
+/* Main name */
+.main-name {
+  font-family: 'Montserrat', sans-serif;  /* same font you use for your portfolio */
+  font-size: 10em !important; 
+  font-weight: 800;
+  color: rgb(255, 255, 255, 0.6) !important;
+  -webkit-text-stroke: 2px white; 
+  margin: 0;
+  max-width: 1500px !important;
+  text-align: center !important;
+  letter-spacing: 0.20em; 
+  padding-top: 20 vh; 
+}
+
+/* Subtitle */
+.subtitle {
+  font-family: 'Montserrat', sans-serif; /* thin, modern font */
+  font-weight: 500 !important;                      /* thin text */
+  font-size: 1.5em;                      /* adjust size as needed */
+  color: white;                           /* white for visibility on dark video */
+  text-transform: none !important;       /* disables all-caps from global styles */
+  text-align: center;                     /* center under main name */
+  max-width: 900px;
+  margin: 2.5em auto 2em auto !important;           /* spacing under main name */
+  line-height: 1.6em;
+}
+
+/* Bolded words inside subtitle */
+.subtitle strong {
+  font-weight: 700;   /* bold for emphasis */
+  color: white;       /* ensures bold words are visible */
+}
+
+/* Logo below text */
+.banner-logo {
+  display: block;
+  margin: 0em auto 0 auto;
+  width: 100px; /* adjust size */
+  height: auto;
+}
+
+/* ===== Subpage video header (navbar background) ===== */
+
+#header-wrapper.video-header {
+  position: relative;
+  background: none !important;
+  padding: 4em 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+#header-wrapper.video-header .header-bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+  pointer-events: none;
+}
+
+#header-wrapper.video-header .header-video-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  pointer-events: none;
+}
+
+#header-wrapper.video-header .container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0 2em 0 18em; /* navbar left indent */
+  box-sizing: border-box;
+}
+
+#header-wrapper.video-header #header {
+  position: relative;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0;
+  max-width: 1500px;
+  width: 100%;
+  pointer-events: auto;
+}
+
+#header-wrapper.video-header #header .inner {
+  background-image: none !important;
+  background-color: rgba(59, 62, 69, 0.0) !important;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgba(255, 255, 255, 0.0);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.0);
+}
+
+#header-wrapper.video-header #header,
+#header-wrapper.video-header #nav {
+  display: block !important;
+}
+
+#header-wrapper.video-header #nav {
+  pointer-events: auto;
+}
+
+#header-wrapper.video-header #nav > ul > li > a {
+  color: #fff !important;
+  text-decoration: none;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+#header-wrapper.video-header #nav > ul > li > a:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+@media screen and (max-width: 980px) {
+  #header-wrapper.video-header .container {
+    padding: 0 1em 0 3em;
+  }
+
+  #header-wrapper.video-header #header,
+  #header-wrapper.video-header #nav {
+    display: block !important;
+  }
+
+  #header-wrapper.video-header #nav > ul > li {
+    padding: 0 0.4em;
+  }
+
+  #header-wrapper.video-header #nav > ul > li > a {
+    font-size: 0.8em;
+    padding: 0.4em 0.5em;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #header-wrapper.video-header {
+    padding: 2em 0;
+  }
+
+  #header-wrapper.video-header .container {
+    padding: 0 1em 0 1.5em;
+  }
+}
+
+/* Flex container for intro section */
+.intro-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2em;            /* spacing between text and video */
+  margin-bottom: 3em;
+}
+
+/* Left text column */
+.intro-text {
+  flex: 2;             /* takes 2/3 of width */
+  min-width: 300px;
+}
+
+/* Right video column */
+.intro-video {
+  flex: 1;             /* takes 1/3 of width */
+  min-width: 600px;
+}
+
+.intro-video video {
+  width: 100%;
+  max-width: 600px;    /* increase video size */
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+/* Subtitle */
+.subtitle {
+  margin: 0 0 0.5em 0;  /* remove extra margins that could create lines */
+  font-weight: 300;
+  font-size: 1.3em;
+  color: white;
+}
+
+/* Remove any extra top/bottom borders or separators */
+header.major {
+  border: none;
+}
