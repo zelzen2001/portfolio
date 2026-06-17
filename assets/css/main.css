@@ -3191,7 +3191,7 @@ header.major {
 
 .timeline-buttons button {
 	padding: 14px 34px;
-	border: none;
+	border: 3px solid #f6b77e;
 	border-radius: 999px;
 	background: #f6b77e;
 	color: white;
@@ -3242,8 +3242,8 @@ header.major {
 	top: 20px;
 	right: 25px;
 	border: none;
-	background: none;
-	font-size: 36px;
+	background: #79A1CF;
+	font-size: 20px;
 	cursor: pointer;
 }
 
