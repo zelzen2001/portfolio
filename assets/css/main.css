@@ -2812,22 +2812,23 @@ body.homepage #header-wrapper.video-hero #banner.video-banner .banner-content h2
   opacity: 0.5;
   font-size: 6em !important;            /* adjust as needed */
   text-align: center;
-  margin-top: 15vh !important;  /* push down from top */
-  margin-bottom: 0 em; /* space to main name */
+  margin-top: 10vh !important;  /* push down from top */
+  margin-bottom: 0 vh; /* space to main name */
 }
 
 /* Main name */
 .main-name {
   font-family: 'Montserrat', sans-serif;  /* same font you use for your portfolio */
-  font-size: 10em !important; 
+  font-size: 10vw !important; 
   font-weight: 800;
   color: rgb(255, 255, 255, 0.6) !important;
   -webkit-text-stroke: 2px white; 
   margin: 0;
-  max-width: 1500px !important;
+  max-width: 100% !important;
   text-align: center !important;
   letter-spacing: 0.20em; 
-  padding-top: 20 vh; 
+  padding-top: 0 vh; 
+  padding-bottom: 10 vh !important; 
 }
 
 /* Subtitle */
@@ -2838,8 +2839,8 @@ body.homepage #header-wrapper.video-hero #banner.video-banner .banner-content h2
   color: white;                           /* white for visibility on dark video */
   text-transform: none !important;       /* disables all-caps from global styles */
   text-align: center;                     /* center under main name */
-  max-width: 900px;
-  margin: 2.5em auto 2em auto !important;           /* spacing under main name */
+  max-width: 75%;
+  margin: 2vh auto !important;           /* spacing under main name */
   line-height: 1.6em;
 }
 
@@ -2862,7 +2863,7 @@ body.homepage #header-wrapper.video-hero #banner.video-banner .banner-content h2
 #header-wrapper.video-header {
   position: relative;
   background: none !important;
-  padding: 2em 0;
+  padding: 2vh 0;
   overflow: hidden;
   width: 100%;
 }
@@ -3258,8 +3259,4 @@ header.major {
 	height: 350px;
 	object-fit: cover;
 	border-radius: 16px;
-}
-
-.draw-wide {
-    transform: scaleX(2.5);
 }
